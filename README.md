@@ -143,8 +143,3 @@ The system provides multiple layers of error handling:
 1. **Enterprise-level errors**: Failures for one enterprise don't affect others
 2. **Network retries**: Automatic retry for network share access issues
 3. **Notification system**: Email alerts for critical failures
-
-Example error email subject:
-```
-Error while Importing CDR for EnterpriseID: ENT001 (Server: PROD01, IP: 192.168.1.100)
-```
